@@ -1,0 +1,19 @@
+{
+  "name": "projectjobfinder",
+  "version": "1.0.0",
+  "description": "project with express, node, sequelize, js, html and css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusEderman/ProjectJobFinder.git"
+  },
+  "author": "vinicius ederman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViniciusEderman/ProjectJobFinder/issues"
+  },
+  "homepage": "https://github.com/ViniciusEderman/ProjectJobFinder#readme"
+}
