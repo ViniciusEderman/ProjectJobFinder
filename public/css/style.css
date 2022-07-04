@@ -45,6 +45,7 @@
     background-position: 0 100px;
     background-size: cover;
     color: #fff;
+    background-repeat: no-repeat;
 }
 
 #main-title {
