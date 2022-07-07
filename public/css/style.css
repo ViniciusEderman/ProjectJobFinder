@@ -175,3 +175,47 @@
     color: #f03e3e;
     border-color: #f03e3e;
   }
+
+/* css at add pag */ 
+
+#add-form-container {
+    margin-top: 100px;
+}
+
+#form-box {
+    padding: 50px;
+    box-shadow: 0 1px 5px rgba(0,0,0,.15);
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+#add-form-container h2 {
+    color: #f03e3e;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#add-form-container form label {
+    font-weight: bold;
+}
+
+#add-form-container form input, #add-form-container form textarea {
+    bottom: 2px solid #ccc;
+    background-color: #f8f9fa;
+}
+
+#form-box button {
+    height: 50px;
+    width: 200px;
+    background-color: #f03e3e;
+    border-radius: 0;
+    margin-top: 20px;
+}
+
+#form-box button:hover {
+    background-color: #fff;
+    color: #f03e3e;
+    border-color: #f03e3e;
+  }
