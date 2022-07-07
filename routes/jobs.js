@@ -7,6 +7,10 @@ router.get('/test', (req, res) => {
     res.send('rota is ok');
 });
 
+router.get('/add', (req, res) => {
+    res.render('add');
+});
+
 router.post('/add', (req, res) => {
    let {title, salary, company, description,
      email, newJob} = req.body;
