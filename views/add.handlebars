@@ -1,0 +1,35 @@
+<div id="add-form-container" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Enter a vacancy that your company is offering</h1>
+            </div>
+            <div id="form-box" class="col-md-12">
+                <h2>Enter data to find new collaborators</h2>
+                <form action="">
+                    <div class="form-group">
+                        <label for="title">Title:</label>
+                        <input type="text" class="class-control" id="title" name="title" placeholder="the job title" required>
+                        <small id="titleHelp" class="form-text text-muted">Be as objective as possible with the title used</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Job description:</label>
+                        <textarea class="form-control" id="description" name="description" placeholder="enter the job description" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company name:</label>
+                        <input type="text" class="class-control" id="company" name="company" placeholder="contracting company" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="text" class="class-control" id="email" name="email" placeholder="the email contact" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="salary">Month salary:</label>
+                        <input type="text" class="class-control" id="salary" name="salary" placeholder="the salary of the vacancy" required>
+                    </div>
+                    <input type="hidden" name="new_job" value="1">
+                    <button type="submit" class="btn btn-primary">SEND</button>
+                </form>
+            </div>
+        </div>
+    </div>
