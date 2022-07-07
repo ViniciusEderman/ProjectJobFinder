@@ -190,6 +190,10 @@
     margin-bottom: 50px;
 }
 
+#add-form-container h1 {
+    margin-bottom: 20px;
+}
+
 #add-form-container h2 {
     color: #f03e3e;
     font-weight: bold;
