@@ -5,6 +5,7 @@ const path = require('path');
 const PORT = 3000;
 const db = require('./db/connectDb');
 const bodyParser = require('body-parser');
+const Job = require('./models/Job');
 
 
 app.listen(PORT, () => {
@@ -35,7 +36,14 @@ db
 
 // routes:
 app.get('/', (req, res) => {
-    res.render('index');
+    Job.findAll({order: [
+        ['createdAt', 'DESC']
+    ]})
+    .then(jobs => {
+        res.render('index', {
+            jobs
+        });
+    });
 });
 
 // job routes
