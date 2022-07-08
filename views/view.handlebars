@@ -1,0 +1,14 @@
+<div id="job-view-container" class="container">
+    <div class="row text-center">
+        <div id="img-container" class="col-md-12"></div>
+        <div class="col-md-12">
+            <h1 class="main-color">{{job.dataValues.title}}</h1>
+            <p class="bold">Where they is search?</p>
+            <p class="job-desc">{{job.dataValues.description}}</p>
+            <p><span class="bold">The salary is: </span>R${{job.dataValues.salary}}</p>
+            <p>
+                To be able to work on <span class="bold main-color">{{job.dataValues.company}}</span> send email for <a class="main-color" href="mail:to{{job.dataValues.email}}">{{job.dataValues.email}}</a>
+            </p>
+        </div>
+    </div>
+</div>
