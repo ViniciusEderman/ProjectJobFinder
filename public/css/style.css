@@ -223,3 +223,39 @@
     color: #f03e3e;
     border-color: #f03e3e;
   }
+
+/* job-view pag */ 
+
+#job-view-container {
+    margin-top: 100px;
+}
+
+#job-view-container h1 {
+    margin-bottom: 30px;
+}
+
+.job-desc {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.main-color {
+    color: #f03e3e;
+}
+
+.back-link {
+    border: 1px solid #f03e3e;
+    padding: 5px 10px 5px 10px;
+    transition: .5s;
+}
+
+.back-link:hover {
+    background-color: #f03e3e;
+    color: #fff;
+    text-decoration: none;
+}
