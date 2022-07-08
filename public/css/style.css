@@ -259,3 +259,45 @@
     color: #fff;
     text-decoration: none;
 }
+
+/* add responsive css */
+
+@media (max-width: 481px) {
+    #navbarNav {
+        text-align: center;
+    }
+
+    #top-container {
+        padding: 50px;
+        padding-top: 100px;
+    }
+
+    #main-title {
+        font-size: 2.2rem;
+    }
+
+    #main-subtitle {
+        font-size: 1.5rem;
+    }
+
+    #search-form {
+        padding: 0;
+    }
+
+    #jobs-container {
+        padding: 20px;
+    }
+
+    .list-group-item {
+        padding: 15px 85px;
+    }
+
+    .list-group-item h2 {
+        font-size: 1.2rem;
+        width: 80%;
+    }
+
+    .new-job .new-job-label {
+        display: none;
+    }
+}
