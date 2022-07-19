@@ -1,2 +1,2 @@
-# ProjectJobFinder
- Project with Express + Node  Html + Css + JS + Sequelize
+# This readme is building!! 
+    Date: 01-08-2022
