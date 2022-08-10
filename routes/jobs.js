@@ -4,7 +4,7 @@ const router = express.Router();
 const Job = require('../models/Job');
 
 router.get('/test', (req, res) => {
-    res.send('rota is ok');
+    res.send('the router test is ok!');
 });
 
 router.get('/view/:id', (req, res) => Job.findOne({
